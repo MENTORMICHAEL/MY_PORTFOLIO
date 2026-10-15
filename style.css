@@ -650,6 +650,7 @@ border-radius: 8px;
 
     .hamburger {
         display: block;
+
     }
 
     .nav-links {
@@ -664,10 +665,12 @@ border-radius: 8px;
         gap: 1.5rem;
         display: none;
         border-bottom: 1px solid var(--border-color);
+        transition: max-height 0.3s ease-in-out, padding 0.3s ease;
     }
 
     .nav-links.active {
         display: flex;
+        max-height: 350px;
     }
 
     .hero-content h1 {

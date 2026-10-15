@@ -446,6 +446,28 @@ function resetReveals() {
 }
 
 // ==========================================
+// HAMBURGER MOBILE MENU TOGGLE
+// ==========================================
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links'); // Update this selector if your links container has a different class name
+
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Close menu automatically when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+}
+
+
+// ==========================================
 // INITIALIZE ON PAGE LOAD
 // ==========================================
 window.addEventListener("DOMContentLoaded", () => {
