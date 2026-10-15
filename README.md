@@ -43,48 +43,17 @@ An interactive form experience designed to guide users through multiple steps wi
 
 *Visit the live portfolio to explore available project demonstrations and source code.*
 
-## 🚀 Getting Started
-
-To run the portfolio locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-   ```
-
-2. Navigate into the project directory:
-
-   ```bash
-   cd YOUR-REPOSITORY
-   ```
-
-3. Open `index.html` in your browser, or use a local development server.
-
-## 📁 Project Structure
-
-```text
-portfolio/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-*Your actual file and folder names may differ.*
 
 ## 🌍 Live Demo
 
-**Portfolio:** Add your deployed portfolio URL here after publishing it.
-
+**Portfolio:** 
 ## 📬 Contact
 
 I'm open to connecting with developers, collaborating on interesting projects, and exploring opportunities in web and mobile development.
 
-- **GitHub:** https://github.com/YOUR-USERNAME
-- **Portfolio:** Add your live website URL here
-- **Email:** Add your preferred contact email here
-
+- **GitHub:** https://github.com/MENTORMICHAEL
+- **Portfolio:** (https://mentormichael.github.io/MY_PORTFOLIO/)
+- **Email:** thmentortechsys@gmail.com
 ## 🎯 My Goal
 
 My goal is to build meaningful digital products that combine functionality, performance, creativity, and excellent user experiences.
